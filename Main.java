@@ -20,7 +20,7 @@ public class Main {
         // se crea la pokedes con el MAP elegido
         Pokedex pokedex = new Pokedex(opcionMapa);
         // se crea la base general de todos los pokemon segun el la ruta del CSV
-        BaseGeneralPokemon pokedexGeneral = new BaseGeneralPokemon("C:\\Users\\pedro\\OneDrive\\Escritorio\\PokemonDataCSV.csv");
+        BaseGeneralPokemon pokedexGeneral = new BaseGeneralPokemon("C:\\Users\\pedro\\OneDrive\\Escritorio\\Algoritmos y estructuras de datos\\HDT6\\HDT6-PC\\PokemonDataCSV.csv"); // cambiar ruta al momento de correrlo
         
         // notese que se utiliza una variable booleana y no un while true
         boolean continuar = true;
