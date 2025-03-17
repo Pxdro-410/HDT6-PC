@@ -8,3 +8,5 @@ Se utilizó el tipo de MAP LinkedHashMap debido a que mantiene el orden en el cu
 
 Complejidad del paso 4:
 contiene 3 pasos fundamentales los cuales son copiar los datos, ordenarlos y devolverlos al usuario, cada accion contiene una complejidad, en este caso, O(n),  O(log n) y O(1), lo que nos da una complejidad final de: O (n log n).
+
+pd: los test de Java se me desconfiguraron por si llega a ocurrir algun error es por eso, favor de entender.
